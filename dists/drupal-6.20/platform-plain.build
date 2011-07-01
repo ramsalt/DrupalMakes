@@ -1,0 +1,8 @@
+; DRUPAL VERSION
+core = 6.x
+
+; Drush Make API
+api = 2
+
+; CORE MODULES
+projects[drupal][version] = 6.20
