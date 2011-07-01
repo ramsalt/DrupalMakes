@@ -106,5 +106,5 @@ projects[tao][type] = "theme"
 
 ; CKEditor 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
