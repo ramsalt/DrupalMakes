@@ -10,4 +10,4 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.22.102/+download/pressflow-6.22.102.tar.gz"
 
 ; BASIC
-includes[remote] = "http://code.ramsalt.com/dists/branches/base/base-d6-modules.make"
+includes[remote] = "https://raw.github.com/ramsalt/DrupalMakes/master/dists/base/base-d6-modules.make"
