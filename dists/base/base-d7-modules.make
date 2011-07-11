@@ -36,6 +36,7 @@ projects[email][subdir] = "contrib"
 
 ; MENUS
 projects[menu_admin_per_menu][subdir] = "contrib"
+projects[menu_block][subdir] = "contrib"
 
 ; CTOOLS
 projects[ctools][subdir] = "contrib"
