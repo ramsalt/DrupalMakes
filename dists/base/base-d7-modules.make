@@ -30,6 +30,7 @@ projects[date][subdir] = "contrib"
 ; NS projects[nodeformcols][subdir] = "contrib"
 projects[field_group][subdir] = "contrib"
 projects[email][subdir] = "contrib"
+projects[elements][subdir] = "contrib"
 
 ; LAYOUT
 ; NS projects[boxes][subdir] = "contrib"
