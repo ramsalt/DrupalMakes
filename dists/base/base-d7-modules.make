@@ -64,12 +64,12 @@ projects[transliteration][subdir] = "contrib"
 projects[image_resize_filter][subdir] = "contrib"
 projects[insert][subdir] = "contrib"
 projects[media][subdir] = "contrib"
-projects[media][version] = 1.0-beta4
+projects[media][version] = 1.0-beta5
 projects[styles][subdir] = "contrib"
 
 ; TRANSLATION
 projects[i18n][subdir] = "contrib"
-projects[i18n][version] = 1.0-beta7
+projects[i18n][version] = 1.0-rc2
 projects[l10n_update][subdir] = "contrib"
 
 ; USER
