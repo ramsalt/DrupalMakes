@@ -14,6 +14,8 @@ projects[memcache][subdir] = "contrib"
 
 ; UTILITY
 projects[libraries][subdir] = "contrib"
+projects[drupad][subdir] = "contrib"
+
 
 ; UI
 projects[admin][subdir] = "contrib"

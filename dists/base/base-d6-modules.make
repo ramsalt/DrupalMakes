@@ -20,6 +20,7 @@ projects[css_gzip][subdir] = "contrib"
 ; UTILITY
 projects[libraries][subdir] = "contrib"
 projects[jquery_ui][subdir] = "contrib"
+projects[drupad][subdir] = "contrib"
 
 ; UI
 projects[admin][subdir] = "contrib"
