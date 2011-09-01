@@ -72,7 +72,6 @@ projects[styles][subdir] = "contrib"
 
 ; TRANSLATION
 projects[i18n][subdir] = "contrib"
-projects[i18n][version] = 1.0-rc2
 projects[l10n_update][subdir] = "contrib"
 
 ; USER
