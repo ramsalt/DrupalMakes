@@ -8,6 +8,9 @@ api = 2
 projects[devel][subdir] = "development"
 projects[diff][subdir] = "development"
 
+; BACKUP
+projects[backup_migrate][subdir] = "contrib"
+
 ; PERFORMANCE
 projects[memcache][subdir] = "contrib"
 ; NS projects[varnish][subdir] = "contrib"
