@@ -8,4 +8,4 @@ api = 2
 projects[drupal][version] = 7.8
 
 ; BASIC
-includes[remote] = "https://raw.github.com/ramsalt/DrupalMakes/master/dists/base/base-d7-modules.make"
+; includes[remote] = "https://raw.github.com/ramsalt/DrupalMakes/master/dists/base/base-d7-modules.make"
