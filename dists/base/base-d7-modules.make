@@ -54,7 +54,6 @@ projects[context][subdir] = "contrib"
 
 ; EXPORTABLES
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = 2.0-beta2
 
 ; KEY MODULES
 projects[references][subdir] = "contrib"
@@ -70,7 +69,6 @@ projects[transliteration][subdir] = "contrib"
 projects[image_resize_filter][subdir] = "contrib"
 projects[insert][subdir] = "contrib"
 projects[media][subdir] = "contrib"
-projects[media][version] = 1.0-beta5
 projects[styles][subdir] = "contrib"
 
 ; TRANSLATION
