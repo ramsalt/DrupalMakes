@@ -18,7 +18,7 @@ projects[memcache][subdir] = "contrib"
 ; UTILITY
 projects[libraries][subdir] = "contrib"
 projects[drupad][subdir] = "contrib"
-
+projects[omega_tools][subdir] = "contrib"
 
 ; UI
 projects[admin][subdir] = "contrib"
@@ -100,6 +100,7 @@ tao][type] = "theme"
 projects[rubik][type] = "theme"
 projects[zen][type] = "theme"
 projects[tao][type] = "theme"
+projects[omega][type] = "theme"
 ; TODO: More themes!!
 
 
