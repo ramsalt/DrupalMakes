@@ -23,6 +23,7 @@ projects[omega_tools][subdir] = "contrib"
 ; UI
 projects[admin][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
+projects[chosen][subdir] = "contrib"
 
 ; JQUERY
 projects[jquery_update][subdir] = "contrib"
@@ -113,3 +114,8 @@ projects[omega][type] = "theme"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+; Chosen
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://raw.github.com/harvesthq/chosen/master/chosen/chosen.jquery.min.js"
+libraries[chosen][directory_name] = "chosen"
