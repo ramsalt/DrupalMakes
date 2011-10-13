@@ -118,4 +118,4 @@ libraries[ckeditor][directory_name] = "ckeditor"
 ; Chosen
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://raw.github.com/harvesthq/chosen/master/chosen/chosen.jquery.min.js"
-libraries[chosen][directory_name] = "chosen"
+libraries[chosen][directory_name] = "chosen/chosen"
