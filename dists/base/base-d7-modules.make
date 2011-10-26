@@ -19,6 +19,7 @@ projects[memcache][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
 projects[drupad][subdir] = "contrib"
 projects[omega_tools][subdir] = "contrib"
+projects[delta][subdir] = "contrib"
 
 ; UI
 projects[admin][subdir] = "contrib"
