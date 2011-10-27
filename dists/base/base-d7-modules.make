@@ -38,6 +38,8 @@ projects[date][subdir] = "contrib"
 projects[field_group][subdir] = "contrib"
 projects[email][subdir] = "contrib"
 projects[elements][subdir] = "contrib"
+projects[flag][subdir] = "contrib"
+projects[panels][subdir] = "contrib"
 
 ; LAYOUT
 ; NS projects[boxes][subdir] = "contrib"
@@ -65,6 +67,7 @@ projects[token][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
+projects[entitycache][subdir] = "contrib"
 
 ; MEDIA HANDLING
 projects[transliteration][subdir] = "contrib"
@@ -79,11 +82,16 @@ projects[l10n_update][subdir] = "contrib"
 
 ; USER
 projects[logintoboggan][subdir] = "contrib"
+projects[profile2][subdir] = "contrib"
+projects[workbench][subdir] = "contrib"
 
 ; SEO
 projects[search404][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
+
+; SOCIAL
+projects[addthis][subdir] = "contrib"
 
 ; STATISTICS
 projects[google_analytics][subdir] = "contrib"
