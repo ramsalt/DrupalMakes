@@ -24,7 +24,7 @@ projects[delta][subdir] = "contrib"
 ; UI
 projects[admin][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
-projects[chosen][subdir] = "contrib"
+; projects[chosen][subdir] = "contrib"
 
 ; JQUERY
 projects[jquery_update][subdir] = "contrib"
@@ -91,7 +91,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 
 ; SOCIAL
-projects[addthis][subdir] = "contrib"
+; projects[addthis][subdir] = "contrib"
 
 ; STATISTICS
 projects[google_analytics][subdir] = "contrib"
