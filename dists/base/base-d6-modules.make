@@ -66,6 +66,7 @@ projects[imageapi][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
 projects[image_resize_filter][subdir] = "contrib"
 projects[insert][subdir] = "contrib"
+projects[imagefield_zip][subdir] = "contrib"
 
 ; TRANSLATION
 projects[i18n][subdir] = "contrib"
