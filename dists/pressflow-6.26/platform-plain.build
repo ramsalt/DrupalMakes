@@ -1,0 +1,13 @@
+; DRUPAL VERSION
+core = 6.x
+
+; Drush Make API
+api = 2
+
+; CORE MODULES
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "https://github.com/pressflow/6/zipball/drupal-6.26"
+
+; BASIC
+includes[remote] = "https://raw.github.com/ramsalt/DrupalMakes/master/dists/base/base-d6-modules.make"
