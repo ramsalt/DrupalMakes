@@ -9,6 +9,9 @@ projects[devel][subdir] = "development"
 projects[drupalforfirebug][subdir] = "development"
 ; projects[new_relic_rpm][subdir] = "development"
 
+; BACKUP
+projects[backup_migrate][subdir] = "contrib"
+
 ; INSTALL
 projects[install_profile_api][subdir] = "contrib"
 
