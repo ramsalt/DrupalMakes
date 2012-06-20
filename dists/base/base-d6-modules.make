@@ -18,7 +18,7 @@ projects[install_profile_api][subdir] = "contrib"
 ; PERFORMANCE
 projects[memcache][subdir] = "contrib"
 projects[varnish][subdir] = "contrib"
-projects[css_gzip][subdir] = "contrib"
+;projects[css_gzip][subdir] = "contrib"
 
 ; UTILITY
 projects[libraries][subdir] = "contrib"
