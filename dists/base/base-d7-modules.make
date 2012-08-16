@@ -23,6 +23,7 @@ projects[delta][subdir] = "contrib"
 
 ; UI
 projects[admin][subdir] = "contrib"
+projects[module_filter][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 ; projects[chosen][subdir] = "contrib"
 
