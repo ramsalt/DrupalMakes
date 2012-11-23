@@ -10,6 +10,7 @@ projects[diff][subdir] = "development"
 
 ; BACKUP
 projects[backup_migrate][subdir] = "contrib"
+projects[backup_migrate_files][subdir] = "contrib"
 
 ; PERFORMANCE
 projects[memcache][subdir] = "contrib"
@@ -120,6 +121,11 @@ projects[omega][type] = "theme"
 
 
 ; LIBRARIES
+
+
+libraries[s3-php5-curl][download][type] = "get"
+libraries[s3-php5-curl][download][url] = "https://github.com/tpyo/amazon-s3-php-class/archive/master.tar.gz"
+libraries[s3-php5-curl][directory_name] = "s3-php5-curl"
 
 ; CKEditor 
 libraries[ckeditor][download][type] = "get"
