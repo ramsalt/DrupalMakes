@@ -11,7 +11,7 @@ projects[diff][subdir] = "development"
 ; BACKUP
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate_files][subdir] = "contrib"
-projects[backup_migrate_files][version] = "dev"
+projects[backup_migrate_files][version] = "1.x-dev"
 
 ; PERFORMANCE
 projects[memcache][subdir] = "contrib"
