@@ -93,6 +93,12 @@ projects[workbench][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
+projects[metatag][subdir] = "contrib"
+projects[insight][subdir] = "contrib"
+projects[pathauto][subdir] = "contrib"
+
+; WEB SERVICES
+projects[services][subdir] = "contrib"
 
 ; SOCIAL
 ; projects[addthis][subdir] = "contrib"
