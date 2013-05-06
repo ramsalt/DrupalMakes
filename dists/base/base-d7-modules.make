@@ -124,6 +124,14 @@ projects[omega][type] = "theme"
 ; TODO: More themes!!
 
 
+; LDAP
+projects[ldap][subdir] = "contrib"
+
+projects[ramsalt_ldap][subdir] = "features"
+projects[ramsalt_ldap][type] = "module"
+projects[ramsalt_ldap][download][type] = "git"
+projects[ramsalt_ldap][download][url] = "git@bitbucket.org:ramsalt/ramsalt_ldap.git"
+
 ; OTHER FILES
 
 
