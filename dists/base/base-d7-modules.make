@@ -98,8 +98,8 @@ projects[insight][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 
 ; WEB SERVICES
-projects[services][subdir] = "contrib"
-libraries[spyc] = False
+;projects[services][subdir] = "contrib"
+;libraries[spyc] = False
 
 ; SOCIAL
 ; projects[addthis][subdir] = "contrib"
