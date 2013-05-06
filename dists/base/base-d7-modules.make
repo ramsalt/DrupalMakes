@@ -117,7 +117,7 @@ projects[profile2][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 
 ; THEMES
-tao][type] = "theme"
+projects[tao][type] = "theme"
 projects[rubik][type] = "theme"
 projects[zen][type] = "theme"
 projects[tao][type] = "theme"
