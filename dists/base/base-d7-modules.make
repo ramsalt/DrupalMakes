@@ -99,6 +99,7 @@ projects[pathauto][subdir] = "contrib"
 
 ; WEB SERVICES
 projects[services][subdir] = "contrib"
+projects[services][overwrite] = TRUE
 
 ; SOCIAL
 ; projects[addthis][subdir] = "contrib"
