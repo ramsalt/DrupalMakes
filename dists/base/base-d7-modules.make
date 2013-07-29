@@ -99,13 +99,13 @@ projects[pathauto][subdir] = "contrib"
 
 ; WEB SERVICES
 ; This is a patch to have services work with drush 4.x and aegir - coming from http://drupal.org/node/1355952
-projects[services][patch][] = http://drupal.org/files/services_drush_make_1355952-40.patch
-libraries[spyc][download][type] = "get"
-libraries[spyc][download][url] = "https://raw.github.com/mustangostang/spyc/master/Spyc.php"
-libraries[spyc][download][filename] = "spyc.php"
-libraries[spyc][directory_name] = "lib"
-libraries[spyc][destination] = "modules/contrib/services/servers/rest_server"
-libraries[spyc][overwrite] = TRUE
+;projects[services][patch][] = http://drupal.org/files/services_drush_make_1355952-40.patch
+;libraries[spyc][download][type] = "get"
+;libraries[spyc][download][url] = "https://raw.github.com/mustangostang/spyc/master/Spyc.php"
+;libraries[spyc][download][filename] = "spyc.php"
+;libraries[spyc][directory_name] = "lib"
+;libraries[spyc][destination] = "modules/contrib/services/servers/rest_server"
+;libraries[spyc][overwrite] = TRUE
 
 ; SOCIAL
 ; projects[addthis][subdir] = "contrib"
