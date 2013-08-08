@@ -27,6 +27,8 @@ projects[delta][subdir] = "contrib"
 projects[admin][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
+; Remove this if 2.3 is out
+projects[wysiwyg][version] = "2.x-dev"
 ; projects[chosen][subdir] = "contrib"
 
 ; JQUERY
