@@ -1,0 +1,9 @@
+; DRUPAL VERSION
+core = 7.x
+
+; Drush Make API
+api = 2
+
+; CORE MODULES
+projects[drupal][version] = 7.23
+
