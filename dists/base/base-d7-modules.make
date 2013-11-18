@@ -67,6 +67,7 @@ projects[strongarm][subdir] = "contrib"
 
 ; KEY MODULES
 projects[references][subdir] = "contrib"
+projects[entityreference][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[token][subdir] = "contrib"
