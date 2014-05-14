@@ -5,7 +5,7 @@ core = 7.x
 api = 2
 
 ; CORE MODULES
-projects[drupal][version] = 7.26
+projects[drupal][version] = 7.28
 
 ; RAMSALT MEDIA
 projects[ramsaltmedia][download][type] = git
