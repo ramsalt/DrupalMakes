@@ -10,11 +10,11 @@ projects[drupal][version] = 7.28
 ; RAMSALT MEDIA
 projects[ramsaltmedia][download][type] = git
 projects[ramsaltmedia][download][url] = https://bitbucket.org/ramsalt/ramsaltmedia.git
-projects[ramsaltmedia][download][branch] = 7.x-1.x
+projects[ramsaltmedia][download][branch] = 7.x-1.0-beta1
 projects[ramsaltmedia][type] = module
 
 ; OPEN PUBLISH
 projects[openpublish][download][type] = git
 projects[openpublish][download][url] = http://git.drupal.org/project/openpublish.git
-projects[openpublish][download][branch] = 7.x-1.x
+projects[openpublish][download][branch] = 7.x-1.0-beta9
 projects[openpublish][type] = profile
