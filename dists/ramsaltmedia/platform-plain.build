@@ -8,10 +8,10 @@ api = 2
 projects[drupal][version] = 7.28
 
 ; RAMSALT MEDIA
-projects[ramsaltmedia][download][type] = git
-projects[ramsaltmedia][download][url] = https://bitbucket.org/ramsalt/ramsalt-base.git
-projects[ramsaltmedia][download][branch] = 7.x-0.1
-projects[ramsaltmedia][type] = module
+projects[ramsalt][download][type] = git
+projects[ramsalt][download][url] = https://bitbucket.org/ramsalt/ramsalt-base.git
+projects[ramsalt][download][branch] = 7.x-0.1
+projects[ramsalt][type] = module
 
 ; RAMSALT MEDIA
 projects[ramsaltmedia][download][type] = git
