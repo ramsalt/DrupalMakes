@@ -118,7 +118,6 @@ projects[google_analytics][subdir] = "contrib"
 
 ; RULES
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.3"
 
 ; USERS
 projects[profile2][subdir] = "contrib"
