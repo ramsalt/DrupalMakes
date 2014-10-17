@@ -15,7 +15,7 @@ projects[ramsalt][type] = module
 
 ; RAMSALT MEDIA
 projects[ramsaltmedia][download][type] = git
-projects[ramsaltmedia][download][url] = https://bitbucket.org/ramsalt/ramsaltmedia.git
+projects[ramsaltmedia][download][url] = git@bitbucket.org:ramsalt/ramsaltmedia.git
 projects[ramsaltmedia][download][branch] = 7.x-2.x
 projects[ramsaltmedia][type] = module
 
