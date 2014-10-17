@@ -9,7 +9,7 @@ projects[drupal][version] = 7.32
 
 ; RAMSALT MEDIA
 projects[ramsaltmedia][download][type] = git
-projects[ramsaltmedia][download][url] = https://bitbucket.org/ramsalt/ramsaltmedia.git
+projects[ramsaltmedia][download][url] = git@bitbucket.org/ramsalt/ramsaltmedia.git
 projects[ramsaltmedia][download][branch] = 7.x-1.x
 projects[ramsaltmedia][type] = module
 
