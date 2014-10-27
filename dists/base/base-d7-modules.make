@@ -156,7 +156,7 @@ libraries[s3-php5-curl][directory_name] = "s3-php5-curl"
 
 ; CKEditor 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.5/ckeditor_4.4.5_full.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Chosen
