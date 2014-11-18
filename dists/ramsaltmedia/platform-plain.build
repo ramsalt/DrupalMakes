@@ -19,6 +19,12 @@ projects[ramsaltmedia][download][url] = git@bitbucket.org:ramsalt/ramsaltmedia.g
 projects[ramsaltmedia][download][branch] = 7.x-2.x
 projects[ramsaltmedia][type] = module
 
+; RAMSALT MEDIA
+projects[ramsaltmediatheme][download][type] = git
+projects[ramsaltmediatheme][download][url] = git@bitbucket.org:ramsalt/ramsaltmediatheme.git
+projects[ramsaltmediatheme][download][branch] = master
+projects[ramsaltmediatheme][type] = theme
+
 ; OPEN PUBLISH
 ;projects[openpublish][download][type] = git
 ;projects[openpublish][download][url] = http://git.drupal.org/project/openpublish.git
