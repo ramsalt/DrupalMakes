@@ -14,16 +14,23 @@ projects[backup_migrate_files][subdir] = "contrib"
 projects[backup_migrate_files][version] = "1.x-dev"
 
 ; PERFORMANCE
+projects[advagg][subdir] = "contrib"
 projects[memcache][subdir] = "contrib"
+projects[cacheflush][subdir] = "contrib"
 ; NS projects[varnish][subdir] = "contrib"
 
 ; UTILITY
+projects[views_bulk_operations][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
 projects[drupad][subdir] = "contrib"
 projects[omega_tools][subdir] = "contrib"
 projects[delta][subdir] = "contrib"
 
 ; UI
+projects[admin_views][subdir] = "contrib"
+projects[absolute_messages][subdir] = "contrib"
+projects[navbar][subdir] = "contrib"
+projects[mb][subdir] = "contrib"
 projects[admin][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
@@ -66,6 +73,8 @@ projects[context][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 
 ; KEY MODULES
+projects[ds][subdir] = "contrib"
+projects[date][subdir] = "contrib"
 projects[references][subdir] = "contrib"
 projects[entityreference][subdir] = "contrib"
 projects[token][subdir] = "contrib"
@@ -75,6 +84,9 @@ projects[pathauto][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
 projects[entitycache][subdir] = "contrib"
+projects[save_edit][subdir] = "contrib"
+projects[ultimate_cron][subdir] = "contrib"
+
 
 ; MEDIA HANDLING
 projects[transliteration][subdir] = "contrib"
@@ -110,6 +122,10 @@ projects[pathauto][subdir] = "contrib"
 ;libraries[spyc][destination] = "modules/contrib/services/servers/rest_server"
 ;libraries[spyc][overwrite] = TRUE
 
+; EMAIL HANDLE
+projects[mailsystem][subdir] = "contrib"
+projects[htmlmail][subdir] = "contrib"
+
 ; SOCIAL
 ; projects[addthis][subdir] = "contrib"
 
@@ -130,8 +146,8 @@ projects[tao][type] = "theme"
 projects[rubik][type] = "theme"
 projects[zen][type] = "theme"
 projects[tao][type] = "theme"
-projects[omega][type] = "theme"
-projects[omega][version] = "3.1"
+; projects[omega][type] = "theme"
+; projects[omega][version] = "3.1"
 ; TODO: More themes!!
 
 
@@ -150,6 +166,7 @@ projects[omega][version] = "3.1"
 ; LIBRARIES
 
 
+; Amazon S3 cURL API
 libraries[s3-php5-curl][download][type] = "get"
 libraries[s3-php5-curl][download][url] = "http://amazon-s3-php-class.googlecode.com/files/s3-php5-curl_0.4.0.tar.gz"
 libraries[s3-php5-curl][directory_name] = "s3-php5-curl"
@@ -163,3 +180,21 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/tarball/master"
 libraries[chosen][directory_name] = "chosen"
+
+;  Backbone (navbar)
+libraries[backbone][download][type] = "get"
+libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+libraries[backbone][directory_name] = "backbone"
+libraries[backbone][type] = "library"
+
+; Unserscore.js (navbar)
+libraries[underscore][download][type] = "get"
+libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.5.2.zip"
+libraries[underscore][directory_name] = "underscore"
+libraries[underscore][type] = "library"
+
+; Modernizr (navbar)
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "http://modernizr.com/downloads/modernizr-latest.js"
+libraries[modernizr][directory_name] = "modernizr"
+libraries[modernizr][type] = "library"

@@ -1,0 +1,12 @@
+; DRUPAL VERSION
+core = 7.x
+
+; Drush Make API
+api = 2
+
+; CORE MODULES
+projects[drupal][version] = 7.34
+projects[openpublic][version] = 1.4
+
+; BASIC
+includes[remote] = "https://raw.github.com/ramsalt/DrupalMakes/master/dists/base/base-d7-modules.make"
