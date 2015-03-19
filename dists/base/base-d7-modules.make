@@ -10,51 +10,51 @@ projects[diff][subdir] = "development"
 
 ; BACKUP
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate_files][subdir] = "contrib"
-projects[backup_migrate_files][version] = "1.x-dev"
+; BM Files is UNSUPPORTED, it has been added to B&M 3.x
+; projects[backup_migrate_files][subdir] = "contrib"
+; projects[backup_migrate_files][version] = "1.x-dev"
 
 ; PERFORMANCE
 projects[advagg][subdir] = "contrib"
 projects[memcache][subdir] = "contrib"
 projects[cacheflush][subdir] = "contrib"
-; NS projects[varnish][subdir] = "contrib"
+
+projects[varnish][subdir] = "contrib"
+projects[varnish][version] = "7.x-1.0-beta2"
 
 ; UTILITY
 projects[views_bulk_operations][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
-projects[drupad][subdir] = "contrib"
-projects[omega_tools][subdir] = "contrib"
+; projects[drupad][subdir] = "contrib"
+; projects[omega_tools][subdir] = "contrib"
 projects[delta][subdir] = "contrib"
 
 ; UI
 projects[admin_views][subdir] = "contrib"
 projects[absolute_messages][subdir] = "contrib"
 projects[navbar][subdir] = "contrib"
+projects[better_formats][subdir] = "contrib"
 projects[mb][subdir] = "contrib"
 projects[admin][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 ; Remove this if 2.3 is out
 projects[wysiwyg][version] = "2.x-dev"
-; projects[chosen][subdir] = "contrib"
+projects[chosen][subdir] = "contrib"
 
 ; JQUERY
 projects[jquery_update][subdir] = "contrib"
 
 ; CONTENT
 projects[ckeditor_link][subdir] = "contrib"
-; NS projects[content_access][subdir] = "contrib"
 projects[date][subdir] = "contrib"
-; NOT SUPPORTED projects[hide_submit][subdir] = "contrib"
-; NS projects[nodeformcols][subdir] = "contrib"
 projects[field_group][subdir] = "contrib"
+projects[field_collection][subdir] = "contrib"
 projects[email][subdir] = "contrib"
+projects[link][subdir] = "contrib"
 projects[elements][subdir] = "contrib"
 projects[flag][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
-
-; LAYOUT
-; NS projects[boxes][subdir] = "contrib"
 
 ; MENUS
 projects[menu_admin_per_menu][subdir] = "contrib"
@@ -66,7 +66,6 @@ projects[ctools][subdir] = "contrib"
 
 ; FEATURES & CONTEXT
 projects[features][subdir] = "contrib"
-projects[context][subdir] = "contrib"
 projects[context][subdir] = "contrib"
 
 ; EXPORTABLES
@@ -87,12 +86,16 @@ projects[entitycache][subdir] = "contrib"
 projects[save_edit][subdir] = "contrib"
 projects[ultimate_cron][subdir] = "contrib"
 
+; Media and File entity use coordinated releases!
+projects[media][subdir] = "contrib"
+projects[media][version] = "7.x-2.0.-alpha4"
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "7.x-2.0-beta1"
 
 ; MEDIA HANDLING
 projects[transliteration][subdir] = "contrib"
 projects[image_resize_filter][subdir] = "contrib"
 projects[insert][subdir] = "contrib"
-projects[media][subdir] = "contrib"
 projects[styles][subdir] = "contrib"
 
 ; TRANSLATION
@@ -111,6 +114,21 @@ projects[pathauto][subdir] = "contrib"
 projects[metatag][subdir] = "contrib"
 projects[insight][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
+
+; SEARCH
+projects[search_api][subdir] = "contrib"
+projects[search_api_db][subdir] = "contrib"
+projects[search_api_solr][subdir] = "contrib"
+projects[search_api_autocomplete][subdir] = "contrib"
+projects[search_api_stats][subdir] = "contrib"
+projects[facetapi][subdir] = "contrib"
+projects[facetapi_tabs][subdir] = "contrib"
+projects[facetapi_pretty_paths][subdir] = "contrib"
+projects[search_api_page][subdir] = "contrib"
+
+; ELASTICSEARCH
+; projects[search_api_elasticsearch][subdir] = "contrib"
+projects[elasticsearch_connector][subdir] = "contrib"
 
 ; WEB SERVICES
 ; This is a patch to have services work with drush 4.x and aegir - coming from http://drupal.org/node/1355952
