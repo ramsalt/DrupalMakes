@@ -88,7 +88,7 @@ projects[ultimate_cron][subdir] = "contrib"
 
 ; Media and File entity use coordinated releases!
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0.-alpha4"
+projects[media][version] = "2.0-alpha4"
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-beta1"
 
