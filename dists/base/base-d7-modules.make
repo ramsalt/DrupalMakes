@@ -6,6 +6,8 @@ api = 2
 
 ; DEVELOPMENT
 projects[devel][subdir] = "development"
+projects[devel_themer][subdir] = "development"
+projects[stage_file_proxy][subdir] = "development"
 projects[diff][subdir] = "development"
 
 ; BACKUP
