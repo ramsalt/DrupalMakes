@@ -1,0 +1,30 @@
+;
+; The branch 3.x Will use the new (Mid 2015) theming guidelines
+;
+
+; DRUPAL VERSION
+core = 7.x
+
+; Drush Make API
+api = 2
+
+; CORE MODULES (Latest Version)
+projects[] = drupal
+
+; RAMSALT Media Base Modules
+projects[ramsalt][download][type] = git
+projects[ramsalt][download][url] = git@bitbucket.org:ramsalt/ramsalt-base.git
+projects[ramsalt][download][branch] = 7.x-0.3.x
+projects[ramsalt][type] = module
+
+; RAMSALT Media Core Modules and Features
+projects[ramsaltmedia][download][type] = git
+projects[ramsaltmedia][download][url] = git@bitbucket.org:ramsalt/ramsaltmedia.git
+projects[ramsaltmedia][download][branch] = 7.x-0.3.x
+projects[ramsaltmedia][type] = module
+
+; RAMSALT Media Themes
+projects[ramsaltmediatheme][download][type] = git
+projects[ramsaltmediatheme][download][url] = git@bitbucket.org:ramsalt/ramsaltmediatheme.git
+projects[ramsaltmediatheme][download][branch] = 7.x-0.3.x
+projects[ramsaltmediatheme][type] = theme
