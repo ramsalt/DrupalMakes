@@ -210,7 +210,7 @@ libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
 libraries[backbone][directory_name] = "backbone"
 libraries[backbone][type] = "library"
 
-; Unserscore.js (navbar)
+; Underscore.js (navbar)
 libraries[underscore][download][type] = "get"
 libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.5.2.zip"
 libraries[underscore][directory_name] = "underscore"
