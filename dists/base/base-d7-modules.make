@@ -4,6 +4,10 @@ core = 7.x
 ; Drush Make API
 api = 2
 
+; SECURITY
+projects[site_audit][subdir] = "contrib"
+projects[security_review][subdir] = "contrib"
+
 ; DEVELOPMENT
 projects[devel][subdir] = "development"
 projects[devel_themer][subdir] = "development"
@@ -20,9 +24,9 @@ projects[backup_migrate][subdir] = "contrib"
 projects[advagg][subdir] = "contrib"
 projects[memcache][subdir] = "contrib"
 projects[cacheflush][subdir] = "contrib"
-
+projects[expire][subdir] = "contrib"
 projects[varnish][subdir] = "contrib"
-projects[varnish][version] = "1.0-beta2"
+projects[varnish][version] = "1.x-dev"
 
 ; UTILITY
 projects[views_bulk_operations][subdir] = "contrib"
@@ -83,7 +87,6 @@ projects[entityreference][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[token][subdir] = "contrib"
-projects[pathauto][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
 projects[entitycache][subdir] = "contrib"
@@ -115,9 +118,9 @@ projects[workbench][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
+projects[pathologic][subdir] = "contrib"
 projects[metatag][subdir] = "contrib"
 projects[insight][subdir] = "contrib"
-projects[pathauto][subdir] = "contrib"
 
 ; SEARCH
 projects[search_api][subdir] = "contrib"
