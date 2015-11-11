@@ -13,6 +13,7 @@ projects[devel][subdir] = "development"
 projects[devel_themer][subdir] = "development"
 projects[stage_file_proxy][subdir] = "development"
 projects[diff][subdir] = "development"
+projects[maillog][subdir] = "development"
 
 ; BACKUP
 projects[backup_migrate][subdir] = "contrib"
