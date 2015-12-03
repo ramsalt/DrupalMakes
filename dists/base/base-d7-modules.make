@@ -195,7 +195,7 @@ projects[adminimal_theme][type] = "theme"
 
 ; Amazon S3 cURL API
 libraries[s3-php5-curl][download][type] = "get"
-libraries[s3-php5-curl][download][url] = "http://amazon-s3-php-class.googlecode.com/files/s3-php5-curl_0.4.0.tar.gz"
+libraries[s3-php5-curl][download][url] = "https://github.com/tpyo/amazon-s3-php-class/archive/v0.5.1.zip"
 libraries[s3-php5-curl][directory_name] = "s3-php5-curl"
 
 ; CKEditor 
