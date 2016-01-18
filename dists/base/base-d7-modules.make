@@ -72,6 +72,7 @@ projects[menu_attributes][subdir] = "contrib"
 
 ; CTOOLS
 projects[ctools][subdir] = "contrib"
+projects[ctools][patch][] = "https://www.drupal.org/files/issues/provide_language_context-2010896-8.patch"
 
 ; FEATURES & CONTEXT
 projects[features][subdir] = "contrib"
