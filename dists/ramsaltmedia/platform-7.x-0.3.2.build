@@ -16,7 +16,7 @@ projects[ramsalt][type] = module
 ; RAMSALT Media Core Modules and Features
 projects[ramsaltmedia][download][type] = git
 projects[ramsaltmedia][download][url] = git@bitbucket.org:ramsalt/ramsaltmedia.git
-projects[ramsaltmedia][download][tag] = 7.x-0.3.2
+projects[ramsaltmedia][download][tag] = 7.x-0.3.2.1
 projects[ramsaltmedia][type] = module
 
 ; RAMSALT Media Themes
