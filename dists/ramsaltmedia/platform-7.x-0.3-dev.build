@@ -11,6 +11,9 @@ api = 2
 ; CORE MODULES (Latest Version)
 projects[] = drupal
 
+; Including Base Modules
+includes[remote] = "https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/dists/base/base-d7-modules.make"
+
 ; RAMSALT Media Base Modules
 projects[ramsalt][download][type] = git
 projects[ramsalt][download][url] = git@bitbucket.org:ramsalt/ramsalt-base.git
