@@ -16,7 +16,7 @@ libraries:
     download:
       type: "git"
       url: "https://github.com/desandro/imagesloaded.git"
-      tag: "v3.3.2"
+      tag: "v3.2.0"
 
   masonry:
     download:
