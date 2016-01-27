@@ -1,0 +1,11 @@
+# Ramsalt D8 Mandatory Themes
+# ----------------
+
+api: 2
+core: "8.x"
+
+projects:
+
+  # Admin theme
+  adminimal_theme:
+    version: "1"

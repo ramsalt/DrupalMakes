@@ -19,6 +19,7 @@ includes:
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-modules.yml
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-themes.yml
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-libraries.yml
+  - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/drupal-devel.yml
 
 defaults:
   projects:

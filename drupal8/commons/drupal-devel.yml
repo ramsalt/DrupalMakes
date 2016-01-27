@@ -1,0 +1,23 @@
+# Ramsalt D8 base makefile
+# ----------------
+
+api: 2
+core: "8.x"
+
+projects:
+  # EXAMPLE
+  # example:
+  #   version: ~
+  #   patch: http://uri.to/the-required.patch
+
+  #### THEMES
+
+  # "Basic" theme, used to be cloned for subtheming
+  basic:
+    version: "1"
+
+
+  #### MODULES
+
+  devel:
+    version: "1.x-dev"

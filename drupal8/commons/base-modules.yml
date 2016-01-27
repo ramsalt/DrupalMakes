@@ -1,0 +1,42 @@
+# Ramsalt D8 base makefile
+# ----------------
+
+api: 2
+core: "8.x"
+
+projects:
+  # EXAMPLE
+  # example:
+  #   version: ~
+  #   patch: http://uri.to/the-required.patch
+
+
+  ctools:
+    version: "3"
+
+  dropzonejs:
+    version: "1.x-dev"
+  ds:
+    version: "2"
+  embed:
+    version: "1.x-dev"
+  entity_browser:
+    version: "1.x-dev"
+  entity_embed:
+    version: "1.x-dev"
+  file_browser:
+    version: "1.x-dev"
+  layout_plugin:
+    version: "1"
+  page_manager:
+    version: "1"
+  panels:
+    version: "3"
+  pathauto:
+    version: "1"
+  slick:
+    version: "1"
+  slick_views:
+    version: "1"
+  token:
+    version: "1"
