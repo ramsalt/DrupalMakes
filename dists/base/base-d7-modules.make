@@ -55,7 +55,9 @@ projects[chosen][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
 
 ; CONTENT
+projects[ckeditor][subdir] = "contrib"
 projects[ckeditor_link][subdir] = "contrib"
+projects[media_ckeditor][subdir] = "contrib"
 projects[date][subdir] = "contrib"
 projects[field_group][subdir] = "contrib"
 projects[field_collection][subdir] = "contrib"
