@@ -34,9 +34,9 @@ projects:
     version: "3"
   pathauto:
     version: "1"
-  slick:
-    version: "1"
-  slick_views:
-    version: "1"
   token:
     version: "1"
+  google_analytics:
+    version: "2"
+  feeds:
+    version: "3.x-dev"
