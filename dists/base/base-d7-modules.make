@@ -60,7 +60,12 @@ projects[ckeditor_link][subdir] = "contrib"
 projects[media_ckeditor][subdir] = "contrib"
 projects[date][subdir] = "contrib"
 projects[field_group][subdir] = "contrib"
+
 projects[field_collection][subdir] = "contrib"
+# ref. https://ramsalt.teamwork.com/tasks/6135593
+# ref. https://www.drupal.org/node/2382089
+projects[field_collection][patch][] = https://www.drupal.org/files/issues/2382089-16.field_collection.fetchHostDetails_logic_for_revision_id.patch
+
 projects[email][subdir] = "contrib"
 projects[link][subdir] = "contrib"
 projects[elements][subdir] = "contrib"
