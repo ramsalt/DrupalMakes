@@ -40,3 +40,7 @@ projects:
     version: "2"
   feeds:
     version: "3.x-dev"
+
+  # We will use this modules only for the library definition
+  slick:
+    version: "1"
