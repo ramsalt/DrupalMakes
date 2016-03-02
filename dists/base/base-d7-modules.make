@@ -80,6 +80,10 @@ projects[menu_attributes][subdir] = "contrib"
 ; CTOOLS
 projects[ctools][subdir] = "contrib"
 projects[ctools][patch][] = "https://www.drupal.org/files/issues/provide_language_context-2010896-8.patch"
+# Positioning of the Ctoos Modal window is wrong for ajax calls.
+# ref. https://www.drupal.org/node/1803104#comment-10241451
+projects[ctools][patch][] = "https://www.drupal.org/files/issues/ctools-fix_modal_position_after_ajax-1803104-10.patch"
+
 
 ; FEATURES & CONTEXT
 projects[features][subdir] = "contrib"
