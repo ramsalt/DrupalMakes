@@ -15,9 +15,6 @@ projects:
   drupal:
     version: ~
     patch:
-      # Multilingual content: Menu link is not currectly stored on translation
-      # ref: https://www.drupal.org/node/2599594#comment-10552280
-      - https://www.drupal.org/files/issues/2599594-13.patch 
       # Show helpful message or be silent (but do not fatal!) when configuration files have different source language codes and cannot be translated
       # ref. https://www.drupal.org/node/2595535#comment-10842952
       - https://www.drupal.org/files/issues/2595535-19.patch
