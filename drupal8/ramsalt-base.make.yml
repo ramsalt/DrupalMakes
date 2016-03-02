@@ -15,6 +15,9 @@ projects:
   drupal:
     version: ~
     patch:
+      # Remove array typehints from batch callbacks (Breake aegir migrations)
+      # ref. https://www.drupal.org/node/2664290#comment-10881508
+      - https://www.drupal.org/files/issues/2664290-9.patch
       # Show helpful message or be silent (but do not fatal!) when configuration files have different source language codes and cannot be translated
       # ref. https://www.drupal.org/node/2595535#comment-10842952
       - https://www.drupal.org/files/issues/2595535-19.patch
