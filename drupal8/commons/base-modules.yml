@@ -24,8 +24,12 @@ projects:
     version: "1.x-dev"
   entity_embed:
     version: "1.x-dev"
+  feeds:
+    version: "3.x-dev"
   file_browser:
     version: "1.x-dev"
+  google_analytics:
+    version: "2"
   layout_plugin:
     version: "1"
   menu_link_attributes:
@@ -40,10 +44,6 @@ projects:
     version: "1"
   token:
     version: "1"
-  google_analytics:
-    version: "2"
-  feeds:
-    version: "3.x-dev"
 
   # We will use this modules only for the library definition
   slick:
