@@ -28,6 +28,10 @@ projects:
     version: "1.x-dev"
   layout_plugin:
     version: "1"
+  menu_link_attributes:
+    version: "1"
+  override_node_options:
+    version: "2"
   page_manager:
     version: "1"
   panels:
