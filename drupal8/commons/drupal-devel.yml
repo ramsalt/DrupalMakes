@@ -21,3 +21,5 @@ projects:
 
   devel:
     version: "1.x-dev"
+  yaml_editor:
+    version: "1.x-dev"
