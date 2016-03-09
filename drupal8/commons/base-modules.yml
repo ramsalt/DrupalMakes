@@ -26,6 +26,8 @@ projects:
     version: "1.x-dev"
   feeds:
     version: "3.x-dev"
+  field_group:
+    version: "1"
   file_browser:
     version: "1.x-dev"
   google_analytics:
