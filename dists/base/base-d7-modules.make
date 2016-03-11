@@ -221,7 +221,7 @@ libraries[chosen][directory_name] = "chosen"
 
 ;  Backbone (navbar)
 libraries[backbone][download][type] = "get"
-libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+libraries[backbone][download][url] = "https://raw.githubusercontent.com/jashkenas/backbone/1.2.3/backbone-min.js"
 libraries[backbone][directory_name] = "backbone"
 libraries[backbone][type] = "library"
 
