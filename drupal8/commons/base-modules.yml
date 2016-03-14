@@ -34,6 +34,8 @@ projects:
     version: "2"
   layout_plugin:
     version: "1"
+  linkit:
+    version: "4"
   menu_link_attributes:
     version: "1"
   override_node_options:
