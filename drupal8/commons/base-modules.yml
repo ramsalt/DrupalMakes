@@ -24,6 +24,8 @@ projects:
     version: "1.x-dev"
   entity_embed:
     version: "1.x-dev"
+  entity_reference_revisions: # required by paragraphs
+    version: "1"
   feeds:
     version: "3.x-dev"
   field_group:
@@ -38,12 +40,18 @@ projects:
     version: "4"
   menu_link_attributes:
     version: "1"
+  metatag:
+    version: "1"
   override_node_options:
     version: "2"
   page_manager:
     version: "1"
   panels:
     version: "3"
+  paragraphs:
+    version: "1"
+  paragraphs_pack:
+    version: "1"
   pathauto:
     version: "1"
   token:
