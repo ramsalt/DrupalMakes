@@ -50,8 +50,6 @@ projects:
     version: "3"
   paragraphs:
     version: "1"
-  paragraphs_pack:
-    version: "1"
   pathauto:
     version: "1"
   token:
