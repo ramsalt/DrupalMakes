@@ -16,11 +16,11 @@ projects:
     version: ~
     patch:
       # Show helpful message or be silent (but do not fatal!) when configuration files have different source language codes and cannot be translated
-      # ref. https://www.drupal.org/node/2595535#comment-10842952
-      - https://www.drupal.org/files/issues/2595535-19.patch
+      # ref. https://www.drupal.org/node/2595535#comment-10951211
+      - https://www.drupal.org/files/issues/2595535-34.patch
       # Menu block level follow acctive trail
-      # ref. https://www.drupal.org/node/2631468#comment-10915617
-      - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-29.patch
+      # ref. https://www.drupal.org/node/2631468#comment-10941953
+      - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-45.patch
 
 includes:
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-modules.yml
