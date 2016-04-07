@@ -11,17 +11,18 @@ projects:
   #   patch: http://uri.to/the-required.patch
 
 
+  admin_toolbar:
+    version: "1"
   ctools:
     version: "3"
-
   dropzonejs:
-    version: "1.x-dev"
+    version: "1"
   ds:
     version: "2"
   embed:
     version: "1.x-dev"
   entity_browser:
-    version: "1.x-dev"
+    version: "1"
   entity_embed:
     version: "1.x-dev"
   entity_reference_revisions: # required by paragraphs
@@ -51,6 +52,10 @@ projects:
   paragraphs:
     version: "1"
   pathauto:
+    version: "1"
+  search_api:
+    version: "1"
+  search_api_solr:
     version: "1"
   token:
     version: "1"
