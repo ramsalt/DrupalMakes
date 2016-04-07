@@ -21,6 +21,9 @@ projects:
       # Menu block level follow acctive trail
       # ref. https://www.drupal.org/node/2631468#comment-10941953
       - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-45.patch
+      # Image field generates only default language URL when linking to corresponding entity.
+      # ref. https://www.drupal.org/node/2645922#comment-11047203
+      - https://www.drupal.org/files/issues/image_field_generates_wrong_lang-2645922-6.patch
 
 includes:
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-modules.yml
