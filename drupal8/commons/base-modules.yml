@@ -19,13 +19,15 @@ projects:
     version: "1"
   ds:
     version: "2"
+  crop:
+    version: "1"
   embed:
     version: "1.x-dev"
   entity_browser:
     version: "1"
   entity_embed:
     version: "1.x-dev"
-  entity_reference_revisions: # required by paragraphs
+  entity_reference_revisions:
     version: "1"
   feeds:
     version: "3.x-dev"
@@ -33,8 +35,14 @@ projects:
     version: "1"
   file_browser:
     version: "1.x-dev"
+  # Not yet ready, but to be kept in consideration:
+  # Ref. https://www.drupal.org/node/2626950
+  # focal_point:
+  #   version: "1"
   google_analytics:
     version: "2"
+  image_widget_crop:
+    version: "1"
   inline_entity_form:
     version: "1"
   layout_plugin:
