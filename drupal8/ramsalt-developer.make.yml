@@ -4,21 +4,10 @@
 api: 2
 core: "8.x"
 
-# Core project
-# ------------
-# In order for your makefile to generate a full Drupal site, you must include
-# a core project. This is usually Drupal core, but you can also specify
-# alternative core projects like Pressflow. Note that makefiles included with
-# install profiles *should not* include a core project.
-
-projects:
-  drupal:
-    version: ~
-
 includes:
-  - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-modules.yml
-  - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-themes.yml
-  - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-libraries.yml
+  # This will import the main drupal project and the base modules/themes/libraries.
+  - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/ramsalt-base.make.yml
+  # And then we add the developer-only modules
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/drupal-devel.yml
 
 defaults:
