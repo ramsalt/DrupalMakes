@@ -202,6 +202,7 @@ projects[adminimal_theme][type] = "theme"
 
 
 ; LIBRARIES
+projects[composer_manager][subdir] = "contrib"
 
 
 ; Amazon S3 cURL API
