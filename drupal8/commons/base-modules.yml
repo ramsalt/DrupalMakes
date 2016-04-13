@@ -19,12 +19,14 @@ projects:
     version: "1"
   ds:
     version: "2"
+  content_browser:
+    version: "1.x-dev"
   crop:
     version: "1"
   embed:
     version: "1.x-dev"
   entity_browser:
-    version: "1"
+    version: "1.x-dev"
   entity_embed:
     version: "1.x-dev"
   entity_reference_revisions:
@@ -68,6 +70,8 @@ projects:
   search_api_solr:
     version: "1"
   token:
+    version: "1"
+  video_embed_field:
     version: "1"
 
   # We will use this modules only for the library definition
