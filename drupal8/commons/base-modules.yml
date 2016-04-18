@@ -13,8 +13,13 @@ projects:
 
   admin_toolbar:
     version: "1"
+  # Required by Slick
+  blazy:
+    version: "1"
   ctools:
     version: "3"
+  ckeditor_media_embed:
+    version: "1.x-dev"
   dropzonejs:
     version: "1"
   ds:
