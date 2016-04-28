@@ -4,6 +4,9 @@ core = 7.x
 ; Drush Make API
 api = 2
 
+; Drupal CORE Patches
+projects[drupal][patch][] = "https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/patches/d7/20160428-EntityMalformedException-watchdog.patch"
+
 ; SECURITY
 projects[site_audit][subdir] = "contrib"
 projects[security_review][subdir] = "contrib"

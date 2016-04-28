@@ -1,0 +1,19 @@
+diff --git a/includes/common.inc b/includes/common.inc
+index c6303ef..e7ef38e 100644
+--- a/includes/common.inc
++++ b/includes/common.inc
+@@ -7877,6 +7877,14 @@ function entity_extract_ids($entity_type, $entity) {
+   if (!empty($info['entity keys']['bundle'])) {
+     // Explicitly fail for malformed entities missing the bundle property.
+     if (!isset($entity->{$info['entity keys']['bundle']}) || $entity->{$info['entity keys']['bundle']} === '') {
++      $message =  "Missing bundle property. Entity '@entity_type' ID: '@id' VID: '@vid' - Bundle Key: @bundle_key";
++      $message_vars = array(
++        '@entity_type' => $entity_type,
++        '@id' => $id,
++        '@vid' => $vid,
++        '@bundle_key' => $info['entity keys']['bundle'],
++      );
++      watchdog('entity_extract_ids',$message, $message_vars, WATCHDOG_CRITICAL);
+       throw new EntityMalformedException(t('Missing bundle property on entity of type @entity_type.', array('@entity_type' => $entity_type)));
+     }
+     $bundle = $entity->{$info['entity keys']['bundle']};
