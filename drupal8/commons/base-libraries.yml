@@ -36,3 +36,9 @@ libraries:
       url: "https://github.com/gdsmith/jquery.easing.git"
       tag: "1.3.2"
 
+  jquery.sticky:
+    download:
+      type: "git"
+      url: "https://github.com/garand/sticky.git"
+      tag: "1.0.3"
+

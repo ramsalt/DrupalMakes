@@ -5,11 +5,6 @@ api: 2
 core: "8.x"
 
 projects:
-  # EXAMPLE
-  # example:
-  #   version: ~
-  #   patch: http://uri.to/the-required.patch
-
   #### THEMES
 
   # "Basic" theme, used to be cloned for subtheming
@@ -19,8 +14,8 @@ projects:
 
   #### MODULES
 
-  # coder:
-  #   version: "2"
+  config_devel:
+    version: "1"
   devel:
     version: "1.x-dev"
   drupalmoduleupgrader:

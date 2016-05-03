@@ -56,6 +56,10 @@ projects:
     version: "1"
   linkit:
     version: "4"
+  media_entity:
+    version: "1"
+  media_entity_image:
+    version: "1.x-dev"
   menu_link_attributes:
     version: "1"
   metatag:

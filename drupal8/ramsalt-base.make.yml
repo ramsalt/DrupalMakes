@@ -26,9 +26,13 @@ projects:
       - https://www.drupal.org/files/issues/image_field_generates_wrong_lang-2645922-6.patch
 
 includes:
+  # Contrib
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-modules.yml
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-themes.yml
   - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/commons/base-libraries.yml
+  # Ramsalt Custom
+  - https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/drupal8/ramsalt/private-modules.yml
+
 
 defaults:
   projects:

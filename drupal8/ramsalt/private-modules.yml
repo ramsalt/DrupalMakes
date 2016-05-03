@@ -1,0 +1,14 @@
+# Ramsalt D8 private repositories
+# ----------------
+
+api: 2
+core: "8.x"
+
+projects:
+
+  ramsalt_base:
+    type: "module"
+    download:
+      type: "git"
+      url: "git@bitbucket.org:ramsalt/ramsalt-base.git"
+      branch: "8.x-1.x"
