@@ -20,5 +20,7 @@ projects:
     version: "1.x-dev"
   drupalmoduleupgrader:
     version: "1"
+  stage_file_proxy:
+    version: "1"
   yaml_editor:
     version: "1.x-dev"
