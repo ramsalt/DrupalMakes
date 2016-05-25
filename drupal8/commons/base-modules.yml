@@ -76,6 +76,10 @@ projects:
     version: "1"
   search_api:
     version: "1"
+    patch:
+      # Support for nested non-base fields. E.g. For indexing text fields in paragraph.
+      # Patch is committed in dev, but releases need some time in search_api.
+      - "https://www.drupal.org/files/issues/2680405-29--nested_non_base_fields.patch"
   search_api_solr:
     version: "1"
   token:
