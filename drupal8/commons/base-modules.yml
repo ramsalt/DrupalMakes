@@ -84,6 +84,8 @@ projects:
     version: "1"
   token:
     version: "1"
+  ultimate_cron:
+    version: "2"
   video_embed_field:
     version: "1"
 
