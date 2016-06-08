@@ -1,0 +1,29 @@
+; DRUPAL VERSION
+core = 7.x
+
+; Drush Make API
+api = 2
+
+; CORE MODULES (Latest Version)
+projects[] = drupal
+
+; Including Base Modules
+includes[remote] = "https://raw.githubusercontent.com/ramsalt/DrupalMakes/master/dists/base/base-d7-modules.make"
+
+; RAMSALT Media Base Modules
+projects[ramsalt][download][type] = git
+projects[ramsalt][download][url]  = git@bitbucket.org:ramsalt/ramsalt-base.git
+projects[ramsalt][download][tag]  = 7.x-0.3.5
+projects[ramsalt][type]           = module
+
+; RAMSALT Media Core Modules and Features
+projects[ramsaltmedia][download][type] = git
+projects[ramsaltmedia][download][url]  = git@bitbucket.org:ramsalt/ramsaltmedia.git
+projects[ramsaltmedia][download][tag]  = 7.x-0.3.5
+projects[ramsaltmedia][type]           = module
+
+; RAMSALT Media Themes
+projects[ramsaltmediatheme][download][type] = git
+projects[ramsaltmediatheme][download][url]  = git@bitbucket.org:ramsalt/ramsaltmediatheme.git
+projects[ramsaltmediatheme][download][tag]  = 7.x-0.3.5
+projects[ramsaltmediatheme][type]           = theme
