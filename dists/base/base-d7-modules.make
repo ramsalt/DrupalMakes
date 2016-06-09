@@ -116,6 +116,7 @@ projects[image_resize_filter][subdir] = "contrib"
 projects[insert][subdir] = "contrib"
 projects[styles][subdir] = "contrib"
 projects[imagecache_token][subdir] = "contrib"
+projects[focal_point][subdir] = "contrib"
 
 ; TRANSLATION
 projects[i18n][subdir] = "contrib"
