@@ -16,14 +16,17 @@ projects:
     version: ~
     patch:
       # Show helpful message or be silent (but do not fatal!) when configuration files have different source language codes and cannot be translated
-      # ref. https://www.drupal.org/node/2595535#comment-11057949
-      - https://www.drupal.org/files/issues/show_helpful_message_or-2595535-51.patch
+      # ref. https://www.drupal.org/node/2595535#comment-11253125
+      - https://www.drupal.org/files/issues/2595535-63.patch
       # Menu block level follow acctive trail
       # ref. https://www.drupal.org/node/2631468#comment-10941953
       - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-45.patch
       # Image field generates only default language URL when linking to corresponding entity.
       # ref. https://www.drupal.org/node/2645922#comment-11047203
       - https://www.drupal.org/files/issues/image_field_generates_wrong_lang-2645922-6.patch
+      # Cannot use relationship for rendered entity on Views
+      # ref. https://www.drupal.org/node/2457999#comment-11101825
+      - https://www.drupal.org/files/issues/2457999-63.patch
 
 includes:
   # Contrib
