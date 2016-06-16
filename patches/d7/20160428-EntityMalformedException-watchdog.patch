@@ -1,8 +1,8 @@
 diff --git a/includes/common.inc b/includes/common.inc
-index c6303ef..e7ef38e 100644
+index c6303ef..b61ce11 100644
 --- a/includes/common.inc
 +++ b/includes/common.inc
-@@ -7877,6 +7877,14 @@ function entity_extract_ids($entity_type, $entity) {
+@@ -7877,6 +7877,24 @@ function entity_extract_ids($entity_type, $entity) {
    if (!empty($info['entity keys']['bundle'])) {
      // Explicitly fail for malformed entities missing the bundle property.
      if (!isset($entity->{$info['entity keys']['bundle']}) || $entity->{$info['entity keys']['bundle']} === '') {
@@ -14,6 +14,16 @@ index c6303ef..e7ef38e 100644
 +        '@bundle_key' => $info['entity keys']['bundle'],
 +      );
 +      watchdog('entity_extract_ids',$message, $message_vars, WATCHDOG_CRITICAL);
++
++      /* If debug mode is enabled print also the call stacktrace */
++      if ( variable_get('ramsalt_debug_mode', FALSE) ) {
++        $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 10);
++        $message_vars = array(
++          '@trace' => print_r($trace, TRUE),
++        );
++        watchdog('entity_extract_ids', "Call trace: @trace", $message_vars, WATCHDOG_ERROR);
++      }
++
        throw new EntityMalformedException(t('Missing bundle property on entity of type @entity_type.', array('@entity_type' => $entity_type)));
      }
      $bundle = $entity->{$info['entity keys']['bundle']};
