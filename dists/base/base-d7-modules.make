@@ -183,12 +183,14 @@ projects[webform][subdir] = "contrib"
 ; THEMES
 projects[tao][type] = "theme"
 projects[rubik][type] = "theme"
-projects[zen][type] = "theme"
 projects[tao][type] = "theme"
 projects[adminimal_theme][type] = "theme"
-; projects[omega][type] = "theme"
-; projects[omega][version] = "3.1"
-; TODO: More themes!!
+
+; We use zen as base theme, we can't get always the latest 
+; this wouls only lead to issues, like not the 6 version is out
+; which changes some classes, breaking the websites.
+projects[zen][type] = "theme"
+projects[zen][version] = "5"
 
 
 ; LDAP
