@@ -214,11 +214,6 @@ libraries[s3-php5-curl][download][type] = "get"
 libraries[s3-php5-curl][download][url] = "https://github.com/tpyo/amazon-s3-php-class/archive/v0.5.1.zip"
 libraries[s3-php5-curl][directory_name] = "s3-php5-curl"
 
-; CKEditor 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.6/ckeditor_4.5.6_full.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-
 ; Chosen
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/tarball/master"
