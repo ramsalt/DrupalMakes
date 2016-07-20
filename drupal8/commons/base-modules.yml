@@ -24,11 +24,15 @@ projects:
     version: "1"
   ds:
     version: "2"
+  coffee:
+    version: "1"
   content_browser:
     version: "1.x-dev"
   crop:
     version: "1"
   embed:
+    version: "1"
+  entity:
     version: "1"
   entity_browser:
     version: "1.x-dev"
@@ -44,6 +48,8 @@ projects:
     version: "1.x-dev"
   focal_point:
    version: "1"
+  fpa:
+    version: "2.x-dev"
   google_analytics:
     version: "2"
   image_widget_crop:
