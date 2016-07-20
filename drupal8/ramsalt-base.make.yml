@@ -15,15 +15,16 @@ projects:
   drupal:
     version: ~
     patch:
-      # Show helpful message or be silent (but do not fatal!) when configuration files have different source language codes and cannot be translated
-      # ref. https://www.drupal.org/node/2595535#comment-11253125
-      - https://www.drupal.org/files/issues/2595535-63.patch
+      # IMPORTANT: This is committed and will be addded to the next D8 release
+      # (Should be 8.1.8, unless secutity relesease)
+      # ref. https://www.drupal.org/node/2595535#comment-11390767
+      - https://www.drupal.org/files/issues/2595535-80.patch
       # Menu block level follow acctive trail
-      # ref. https://www.drupal.org/node/2631468#comment-10941953
-      - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-45.patch
+      # ref. https://www.drupal.org/node/2631468#comment-11318461
+      - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-75.patch
       # Image field generates only default language URL when linking to corresponding entity.
-      # ref. https://www.drupal.org/node/2645922#comment-11047203
-      - https://www.drupal.org/files/issues/image_field_generates_wrong_lang-2645922-6.patch
+      # ref. https://www.drupal.org/node/2645922#comment-11366545
+      - https://www.drupal.org/files/issues/2645922_image_field_link_to_translated_entity_8-1-3.patch
       # Cannot use relationship for rendered entity on Views
       # ref. https://www.drupal.org/node/2457999#comment-11101825
       - https://www.drupal.org/files/issues/2457999-63.patch
