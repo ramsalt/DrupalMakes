@@ -16,19 +16,19 @@ projects:
   # Required by Slick
   blazy:
     version: "1"
-  ctools:
-    version: "3"
   ckeditor_media_embed:
     version: "1"
-  dropzonejs:
-    version: "1"
-  ds:
-    version: "2"
   coffee:
     version: "1"
   content_browser:
     version: "1.x-dev"
   crop:
+    version: "1"
+  ctools:
+    version: "3"
+  ds:
+    version: "2"
+  dropzonejs:
     version: "1"
   embed:
     version: "1"
@@ -39,6 +39,8 @@ projects:
   entity_embed:
     version: "1"
   entity_reference_revisions:
+    version: "1"
+  facets:
     version: "1"
   feeds:
     version: "3.x-dev"
