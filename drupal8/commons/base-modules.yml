@@ -42,10 +42,8 @@ projects:
     version: "1"
   file_browser:
     version: "1.x-dev"
-  # Not yet ready, but to be kept in consideration:
-  # Ref. https://www.drupal.org/node/2626950
-  # focal_point:
-  #   version: "1"
+  focal_point:
+   version: "1"
   google_analytics:
     version: "2"
   image_widget_crop:
