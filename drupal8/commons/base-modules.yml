@@ -20,6 +20,8 @@ projects:
     version: "1"
   coffee:
     version: "1"
+  config_update:
+    version: "1"
   content_browser:
     version: "1.x-dev"
   crop:
