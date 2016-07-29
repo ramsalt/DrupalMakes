@@ -31,7 +31,7 @@ projects[varnish][version] = "1.x-dev"
 
 ; UTILITY
 projects[views_bulk_operations][subdir] = "contrib"
-projects[librarivees][subdir] = "contrib"
+projects[libraries][subdir] = "contrib"
 ; projects[drupad][subdir] = "contrib"
 ; projects[omega_tools][subdir] = "contrib"
 projects[delta][subdir] = "contrib"
