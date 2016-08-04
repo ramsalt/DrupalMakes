@@ -15,10 +15,6 @@ projects:
   drupal:
     version: ~
     patch:
-      # IMPORTANT: This is committed and will be addded to the next D8 release
-      # (Should be 8.1.8, unless secutity relesease)
-      # ref. https://www.drupal.org/node/2595535#comment-11390767
-      - https://www.drupal.org/files/issues/2595535-80.patch
       # Menu block level follow acctive trail
       # ref. https://www.drupal.org/node/2631468#comment-10941953
       - https://www.drupal.org/files/issues/menu_block_follow_active-2631468-45.patch
