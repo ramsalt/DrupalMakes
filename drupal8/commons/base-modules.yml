@@ -73,7 +73,9 @@ projects:
     patch:
       # Metatag breaks drupal console.
       # @see: https://www.drupal.org/node/2752239
-      - "https://www.drupal.org/files/issues/update_console_commands-2752239-12.patch"
+      # - "https://www.drupal.org/files/issues/update_console_commands-2752239-12.patch"
+      # Update: the previous patch creates fatal error. New patch:
+      - "https://www.drupal.org/files/issues/fix_console_commands-2752239-27.patch"
   override_node_options:
     version: "2"
   page_manager:
