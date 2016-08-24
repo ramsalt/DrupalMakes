@@ -162,6 +162,9 @@ projects[elasticsearch_connector][subdir] = "contrib"
 
 ; EMAIL HANDLE
 projects[mailsystem][subdir] = "contrib"
+; http://drupal.org/node/1534706 - for more info
+projects[mailsystem][patch][] = http://drupal.org/files/mailsystem.1534706.6.patch
+
 projects[htmlmail][subdir] = "contrib"
 
 ; SOCIAL
@@ -207,6 +210,36 @@ projects[zen][version] = "5"
 ; LIBRARIES
 projects[composer_manager][subdir] = "contrib"
 
+; CKEditor Library + plugins
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.10/ckeditor_4.5.10_full.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
+
+libraries[ckeditor-plugin-lineutils][download][type] = "get"
+libraries[ckeditor-plugin-lineutils][download][url] = "http://download.ckeditor.com/lineutils/releases/lineutils_4.5.10.zip"
+libraries[ckeditor-plugin-lineutils][directory_name] = "ckeditor/plugins/lineutils"
+libraries[ckeditor-plugin-lineutils][type] = "library"
+
+libraries[ckeditor-plugin-widget][download][type] = "get"
+libraries[ckeditor-plugin-widget][download][url] = "http://download.ckeditor.com/widget/releases/widget_4.5.10.zip"
+libraries[ckeditor-plugin-widget][directory_name] = "ckeditor/plugins/widget"
+libraries[ckeditor-plugin-widget][type] = "library"
+
+libraries[ckeditor-plugin-image2][download][type] = "get"
+libraries[ckeditor-plugin-image2][download][url] = "http://download.ckeditor.com/image2/releases/image2_4.5.10.zip"
+libraries[ckeditor-plugin-image2][directory_name] = "ckeditor/plugins/image2"
+libraries[ckeditor-plugin-image2][type] = "library"
+
+libraries[ckeditor-plugin-iframedialog][download][type] = "get"
+libraries[ckeditor-plugin-iframedialog][download][url] = "http://download.ckeditor.com/iframedialog/releases/iframedialog_4.5.10.zip"
+libraries[ckeditor-plugin-iframedialog][directory_name] = "ckeditor/plugins/iframedialog"
+libraries[ckeditor-plugin-iframedialog][type] = "library"
+
+libraries[ckeditor-plugin-placeholder][download][type] = "get"
+libraries[ckeditor-plugin-placeholder][download][url] = "http://download.ckeditor.com/placeholder/releases/placeholder_4.5.10.zip"
+libraries[ckeditor-plugin-placeholder][directory_name] = "ckeditor/plugins/placeholder"
+libraries[ckeditor-plugin-placeholder][type] = "library"
 
 ; Amazon S3 cURL API
 libraries[s3-php5-curl][download][type] = "get"
@@ -215,7 +248,7 @@ libraries[s3-php5-curl][directory_name] = "s3-php5-curl"
 
 ; Chosen
 libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/tarball/master"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v1.6.1.zip"
 libraries[chosen][directory_name] = "chosen"
 
 ;  Backbone (navbar)
@@ -226,13 +259,13 @@ libraries[backbone][type] = "library"
 
 ; Underscore.js (navbar)
 libraries[underscore][download][type] = "get"
-libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.5.2.zip"
+libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.8.3.zip"
 libraries[underscore][directory_name] = "underscore"
 libraries[underscore][type] = "library"
 
 ; Modernizr (navbar)
 libraries[modernizr][download][type] = "get"
-libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.6.2.zip"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.tar.gz"
 libraries[modernizr][directory_name] = "modernizr"
 libraries[modernizr][type] = "library"
 
