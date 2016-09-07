@@ -26,6 +26,8 @@ projects:
     version: "1"
   ctools:
     version: "3"
+    # Adds an autocomplete option to views exposed filters, ref: https://www.drupal.org/node/2475595
+    patch: https://www.drupal.org/files/issues/2475595-ctools-autocomplete-fix-24.patch
   ds:
     version: "2"
   dropzonejs:
