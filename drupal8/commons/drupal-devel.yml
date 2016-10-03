@@ -24,3 +24,5 @@ projects:
     version: "1"
   yaml_editor:
     version: "1.x-dev"
+  cache_clear_shortcut:
+    version: "1.x-dev"
