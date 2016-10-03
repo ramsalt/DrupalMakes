@@ -70,16 +70,12 @@ projects:
     version: "1"
   menu_link_attributes:
     version: "1"
-  # temporarily removing metatag due to https://www.drupal.org/node/2752239 and https://www.drupal.org/node/2786795
-  # keep an eye for beta10, where hopefully this is fixed. As of aug. 19 both beta9 and dev is broken. 
-  #metatag:
-  #  version: "1"
-  #  patch:
-      # Metatag breaks drupal console.
-      # @see: https://www.drupal.org/node/2752239
-      # - "https://www.drupal.org/files/issues/update_console_commands-2752239-12.patch"
-      # Update: the previous patch creates fatal error. New patch:
-      # - "https://www.drupal.org/files/issues/fix_console_commands-2752239-33.patch"
+  metatag:
+    version: "1"
+    patch:
+      # Metatag's drupal Console integration breaks Drush.
+      # @see: https://www.drupal.org/node/2786795#comment-11682909
+       - "https://www.drupal.org/files/issues/drupalconsole-2786795-40.patch"
   override_node_options:
     version: "2"
   page_manager:
