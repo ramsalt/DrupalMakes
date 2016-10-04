@@ -72,12 +72,12 @@ projects:
     version: "1"
   menu_link_attributes:
     version: "1"
-  metatag:
-    version: "1"
-    patch:
-      # Metatag's drupal Console integration breaks Drush.
-      # @see: https://www.drupal.org/node/2786795#comment-11682909
-       - "https://www.drupal.org/files/issues/drupalconsole-2786795-40.patch"
+  # metatag:
+  #   version: "1"
+  #   patch:
+  #     # Metatag's drupal Console integration breaks Drush.
+  #     # @see: https://www.drupal.org/node/2786795#comment-11682909
+  #      - "https://www.drupal.org/files/issues/drupalconsole-2786795-40.patch"
   override_node_options:
     version: "2"
   page_manager:
