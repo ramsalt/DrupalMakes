@@ -40,6 +40,10 @@ projects:
     version: "1"
   entity_browser:
     version: "1"
+    patch:
+      # Allow using "Default" view mode
+      # @see https://www.drupal.org/node/2806693#comment-11672883
+      - https://www.drupal.org/files/issues/2806693-7.entity_browser.missing-view-mode.patch
   entity_embed:
     version: "1"
   entity_reference_revisions:
